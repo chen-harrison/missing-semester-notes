@@ -1,3 +1,5 @@
+# Debugging and Profiling
+
 ### Logging
 
 - Use logging instead of print statements

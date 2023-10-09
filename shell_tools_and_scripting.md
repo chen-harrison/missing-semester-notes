@@ -1,3 +1,5 @@
+# Shell Tools and Scripting
+
 ### Variables and Operators
 
 - `foo=bar` for setting variables, access with `$` like `$foo`

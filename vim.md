@@ -1,3 +1,5 @@
+# Editors (Vim)
+
 ### Modal Editing
 
 - Vim is a modal editor - it has different modes

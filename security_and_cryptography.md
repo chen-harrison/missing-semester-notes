@@ -1,3 +1,5 @@
+# Security and Cryptography
+
 ### Hash Functions
 
 - Entropy: measure of randomness, works as a measure of password strength  

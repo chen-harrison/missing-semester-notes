@@ -1,3 +1,5 @@
+# Version Control (Git)
+
 ### Git’s Data Model
 
 - Commits act as “snapshots” of a collection of folders and files
