@@ -3,7 +3,7 @@
 ### Hash Functions
 
 - Entropy: measure of randomness, works as a measure of password strength  
-    $bits\_of\_entropy= log_2(num\_possibilities)$
+    $bits.of.entropy= log_2(num.possibilities)$
     - 40 bits of entropy protects against online guessing, 80+ for offline
 - Cryptographic hash function: maps data of arbitrary size to fixed size
     - SHA1 used by git maps takes inputs of varying size and creates 160-bit output
