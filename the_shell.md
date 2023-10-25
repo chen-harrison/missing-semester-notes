@@ -18,7 +18,7 @@
 
 - `cd -`: changes directory to the one you were at previously, i.e. a back button
 - `pushd`, `popd`: generate/prune a directory stack as you move between directories
-- `which COMMAND`: shows the absolute path to the command being called
+- `which PROGRAM`: shows the absolute path to the program being called
 - `man PROGRAM`: the manual command, a more readable `-h` or `--help`
 - `sudo`: “do as su (super user)”
     - `sudo su`: creates a super user terminal instance, which you’ll notice looks like `root@DEVICE:PATH#` instead of `USER@DEVICE:PATH$`
