@@ -92,9 +92,12 @@
     - add a `COMMAND` at the end to just run it directly
 - SSH keys allow you to forego password use each time you log into remote
     - Generated in pairs, public and private, i.e. `id_ed25519` and `id_ed25519.pub` - public is passed to remote, private is kept locally to as a method of authentication
-    - Copy to remote with `ssh-copy-id -i .ssh/id_ed25519.pub USER@IP_ADDRESS_OR_URL`
     - Passphrase ensures that if private key file is obtained by someone else, they can’t use it
-- `rsync -avP FILE_OR_DIRECTORY_PATH USER@IP_ADDRESS_OR_URL:DESTINATION`
+    - Remote machine
+        - Copy to remote with `ssh-copy-id -i .ssh/id_ed25519.pub USER@IP_ADDRESS_OR_URL`
+    - GitHub/GitLab
+        - `cat ~/.ssh/id_ed25519.pub`, then copy output and paste it into text field on website
+- `rsync -avP FILE_OR_DIRECTORY_PATH USER@IP_ADDRESS_OR_URL:DESTINATION` syncs files and directories between two hosts or machines
 - List remote devices in `~/.ssh/config` and you can connect by simply typing `ssh HOST_NAME`  
     ```
     Host HOST_NAME
