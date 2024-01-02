@@ -30,7 +30,7 @@
     - `tmux rename -t NUM NAME` = rename session of index `NUM` to `NAME`
 - Panes
     - `C-b` + `%` = split left-right
-    - `C-b` + `“` = split left-right
+    - `C-b` + `“` = split top-bottom
     - `C-b` + `ARROW` = navigate panes
 - Windows (aka tabs)
     - `C-b` + `c` = new window
